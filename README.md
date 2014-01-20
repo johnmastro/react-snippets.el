@@ -14,11 +14,21 @@ The only dependency is [Yasnippet] [] version 0.7.0 or above.
 
 ### ELPA
 
-I'll submit this package to [MELPA] [] shortly, at which point that will be the
-recommended installation method. I'll update this README as soon as it's
-available there.
+The preferred way to install `react-snippets` is via [MELPA] [].
 
 [MELPA]: http://melpa.milkbox.net/
+
+To enable MELPA, if you haven't already, add something like the following to
+your Emacs configuration:
+
+    (require 'package)
+    (add-to-list 'package-archives
+                 '("melpa" . "http://melpa.milkbox.net/packages/") t)
+    (package-initialize)
+
+Then it (and Yasnippet, if you don't already have it) can be installed with
+
+    M-x package-install RET react-snippets RET
 
 ### Manual
 
