@@ -36,7 +36,7 @@
   (let ((snippets-dir (expand-file-name "snippets" react-snippets-root)))
     (when (boundp 'yas-snippet-dirs)
       (add-to-list 'yas-snippet-dirs snippets-dir t))
-    (yas/load-directory snippets-dir)))
+    (yas-load-directory snippets-dir)))
 
 ;;;###autoload
 (eval-after-load 'yasnippet
