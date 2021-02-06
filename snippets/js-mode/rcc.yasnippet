@@ -3,13 +3,12 @@
 # key: rcc
 # --
 import React from 'react';
-import PropTypes from 'prop-types';
 
 const propTypes = {};
 
 const defaultProps = {};
 
-class ${1:Component} extends React.Component {
+class $1 extends React.Component {
 constructor(props) {
   super(props);
 }
@@ -21,7 +20,7 @@ constructor(props) {
   }
 };
 
-${1:Component}.propTypes = propTypes;
-${1:Component}.defaultProps = defaultProps;
+$1.propTypes = propTypes;
+$1.defaultProps = defaultProps;
 
-export default ${1:Component};
+export default ${1:`(let* ((filename (split-string (buffer-file-name) "/")) (file (nth (1- (length filename)) filename))) (nth 0 (split-string file "\\.")))`};
