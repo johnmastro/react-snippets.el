@@ -1,3 +1,5 @@
+**Looking for a maintainer - I'm no longer using the code in this repository and would love to find a maintainer to take it over and and give it more attention. Please reach out if you're interested.**
+
 # react-snippets.el
 
 Yasnippets for [React][].
