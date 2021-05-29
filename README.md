@@ -1,6 +1,6 @@
 # react-snippets.el
 
-Yasnippets for [React] [].
+Yasnippets for [React][].
 
 [React]: http://facebook.github.io/react/
 
@@ -8,13 +8,13 @@ Yasnippets for [React] [].
 
 ### Dependencies
 
-The only dependency is [Yasnippet] [] version 0.7.0 or above.
+The only dependency is [Yasnippet][] version 0.7.0 or above.
 
 [Yasnippet]: https://github.com/capitaomorte/yasnippet
 
 ### ELPA
 
-The preferred way to install `react-snippets` is via [MELPA] [].
+The preferred way to install `react-snippets` is via [MELPA][].
 
 [MELPA]: http://melpa.milkbox.net/
 
